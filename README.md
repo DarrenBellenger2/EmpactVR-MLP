@@ -8,6 +8,10 @@ EMPACTVR is a research project to integrate bi-modal (facial and audio) emotion 
 
 It is theorised that facial values present in some types of avatars (such as the Unity UMA avatar) resemble Ekman action units. The early results presented show a facial emotion recognition accuracy of up to 92% on one benchmark dataset, with an overall accuracy of 77.2% across a wide range of datasets, demonstrating the early promise of the research.
 
+This [paper](https://github.com/DarrenBellenger2/EmpactVR-MLP/blob/main/paper/Darren_Bellenger_Wiley_Positional_Paper___Facial_Emotion_Recognition_6.pdf) outlines the creation of a feature extractor that produces facial settings that could drive an avatar (UMA) along with provide values for an ML model.
+
+The datasets utlised are: [CK+](https://paperswithcode.com/dataset/ck), [Helen](http://www.ifp.illinois.edu/~vuongle2/helen/), [Yale](https://www.kaggle.com/datasets/olgabelitskaya/yale-face-database), [Jaffe](https://paperswithcode.com/dataset/jaffe), [VisGraf](https://www.visgraf.impa.br/t-faces/index.html), [ADFES](https://aice.uva.nl/research-tools/adfes-stimulus-set/adfes-stimulus-set.html?cb), [Oulu-Casia](https://paperswithcode.com/dataset/oulu-casia).
+
 # Audio Emotion Recognition
 
 The audio emotion recognition part of the research
