@@ -14,4 +14,6 @@ The datasets utlised are: [CK+](https://paperswithcode.com/dataset/ck), [Helen](
 
 # Audio Emotion Recognition
 
-The audio emotion recognition part of the research
+The audio emotion recognition phase is performed by analysing the mel-frequency cepstrum (MFC), using this as the sole feature input into an ML model. The model is able to recognise emotion in full sentences and smaller parts of a sentence. The diverse set of multi-langaue datasets utlised are: [Shemo](https://paperswithcode.com/dataset/shemo), [SAVEE](http://kahlan.eps.surrey.ac.uk/savee/), [EmoDB](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb), [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio), [CREMA-D](https://www.kaggle.com/datasets/ejlok1/cremad), [TESS](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess), [AESDD](http://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/), [Oreau](https://zenodo.org/record/4405783), [CaFE](https://zenodo.org/record/1478765), [Emovo](https://paperswithcode.com/dataset/emovo), [JLCorpus](https://www.kaggle.com/datasets/tli725/jl-corpus), [SUBESCO](https://zenodo.org/record/4526477), [MESD](https://www.kaggle.com/datasets/saurabhshahane/mexican-emotional-speech-database-mesd), [ESD](https://paperswithcode.com/dataset/esd), [URDU](https://www.kaggle.com/datasets/kingabzpro/urdu-emotion-dataset).
+
+
