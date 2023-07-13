@@ -16,4 +16,10 @@ The datasets utlised are: [CK+](https://paperswithcode.com/dataset/ck), [Helen](
 
 The audio emotion recognition phase is performed by analysing the mel-frequency cepstrum (MFC), using this as the sole feature input into an ML model. The model is able to recognise emotion in full sentences and smaller parts of a sentence. The diverse set of multi-langaue datasets utlised are: [Shemo](https://paperswithcode.com/dataset/shemo), [SAVEE](http://kahlan.eps.surrey.ac.uk/savee/), [EmoDB](https://www.kaggle.com/datasets/piyushagni5/berlin-database-of-emotional-speech-emodb), [RAVDESS](https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio), [CREMA-D](https://www.kaggle.com/datasets/ejlok1/cremad), [TESS](https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess), [AESDD](http://m3c.web.auth.gr/research/aesdd-speech-emotion-recognition/), [Oreau](https://zenodo.org/record/4405783), [CaFE](https://zenodo.org/record/1478765), [Emovo](https://paperswithcode.com/dataset/emovo), [JLCorpus](https://www.kaggle.com/datasets/tli725/jl-corpus), [SUBESCO](https://zenodo.org/record/4526477), [MESD](https://www.kaggle.com/datasets/saurabhshahane/mexican-emotional-speech-database-mesd), [ESD](https://paperswithcode.com/dataset/esd), [URDU](https://www.kaggle.com/datasets/kingabzpro/urdu-emotion-dataset).
 
+# Using this version of EmpactVR
 
+The package was developed in Python Anaconda using Python 3.7 and a number of installed packages such as SciKit, MoviePy and Librosa, all of which will needing installing. Additionally you will need to download the [68-point Dlib face predictor](https://github.com/italojs/facial-landmarks-recognition/blob/master/shape_predictor_68_face_landmarks.dat). 
+
+# Later planned work 
+
+In the future there will be a revised version of EmpactVR, integrating it into the Unity platform. At this point a late-fusion method will be used to generate a single prediction from both ML models (facial and audio), to enable prediction either during or at the end of conversation.
